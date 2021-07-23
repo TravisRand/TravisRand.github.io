@@ -3,7 +3,7 @@
 html,
 body {
   font-family: "Inter", Arial, sans-serif;
-  background-color: #eee;
+  background-color: #ffffff;
   height: 100%;
   width: 100% !important;
   margin: 0;
@@ -25,6 +25,10 @@ body {
   margin-left: 1px;
 }
 
+p {
+  color:#292a2c;
+}
+
 /* ==== End of General Rules & Guidelines ==== */
 
 /* ==== Start of Nav ==== */
@@ -32,30 +36,31 @@ body {
 .navbar {
   margin: 0;
   display: fixed;
-  background-color: #88A486;
-  border-radius: 0px;
-  border: none;
-  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
+  background-color: #ffffff;
 }
 
 .navbar-brand {
-  color: #eee;
-}
-
-.TravisRandMain {
-  font-size: 1.5em;
+  color: #888888;
+  font-family: "Noto Sans JP", "Inter", "Arial";
+  padding-left: 10px !important;
+  padding-right: 5px !important;
 }
 
 span:hover {
-  background-color: #eee;
+  background-color: #292a2c;
 }
 
 #contact-resume {
-  margin-top: 2px;
+  margin-top: 2%;
 }
 
 .navbar-brand:hover {
-  color: #eee;
+  color: #292a2c;
+}
+
+.Logo {
+  max-width: 2.3em;
+  max-height: 2.3em;
 }
 
 @media screen and (max-width: 350px) {
@@ -78,6 +83,7 @@ span:hover {
 
 /* ==== End of Nav ==== */
 
+/* 
 .jumbotron {
   margin-top: 50px;
   background-image: url("R1-09857-0010.JPG");
@@ -114,6 +120,7 @@ span:hover {
 .carouselItem {
   display: none;
 }
+/*
 
 /* ==== Bio & Projects ==== */
 
@@ -130,6 +137,7 @@ span:hover {
 
 .projects:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  
 }
 .projects:focus {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -138,18 +146,23 @@ span:hover {
 .avi {
   box-sizing: border-box;
   display: inline-block;
-  border-radius: 50% !important;
+  border-radius: 50%;
+  margin-top: 10em;
 }
 
-#bio {
-  color: #cb9278;
+#shortBio {
   padding-top: 1em;
+  font-size: 1.4em;
+}
+#fullBio {
+  padding-top: 5%;
+  padding-bottom: 20%;
   font-size: 1.4em;
 }
 
 h2 {
   text-align: center;
-  color: #88A486;
+  color: #292a2c;
   font-size: 3em;
 }
 
@@ -158,11 +171,11 @@ h2 {
 /* ==== Start of Footer ==== */
 
 footer {
-  background-color: #cb9278;
+  background-color: #ffffff;
   margin-top: 30px;
 }
 
-.fa {
+.bi {
   font-size: 2em;
   padding-top: .5em;
   padding-bottom: .5em;
@@ -176,15 +189,16 @@ footer {
 }
 
 .socialLink {
-  color: #eee;
+  color: #292a2c;
 }
 
 .socialLink:hover {
-  color: #eee;
+  color: #292a2c;
 }
 
 .copyRight {
-  color: #eee;
+  color: #292a2c;
+  font-family: "Noto Sans JP", "Inter", Arial, Helvetica, sans-serif;
 }
 
 @media screen and (min-width: 426px) {
